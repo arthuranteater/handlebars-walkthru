@@ -1,0 +1,37 @@
+
+<div class="container">
+
+    <h1><span id='length'>{{length}}</span> Coding Kids</h1>
+
+    <div class="row">
+        <div class="col">
+            <form id="addkid" class="button-size">
+                <input required type="text" name="kid_name" placeholder="name"/>
+                <input required type="text" name="alias" placeholder="alias"/>
+                <input required type="text" name="age" placeholder="age"/>
+                <input required type="text" name="yob" placeholder="birth year"/>
+                <input type="text" name="img" placeholder="image url"/>
+                <button  class="btn btn-success" type="submit">Add Kid!</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        {{#each kids}}
+        <div class="col-sm-6 col-md-5 col-lg-4">
+            <div class="card mt-2" style="width: 18rem;">
+                <img class='img{{this.id}}' src="{{this.img}}" height="300px" width="auto" class="card-img-top" alt="profile pic">
+                <div id='{{this.id}}' class="card-body">
+                    <h5 class="card-title">{{this.kid_name}}</h5>
+                    <p class="card-text">ID: <span id='id'>{{this.id}}</span></p>
+                    <label>Alias: <input disabled class='input{{this.id}}' type="text" placeholder="{{this.alias}}"></label>
+                    <label>Age: <input disabled class='input{{this.id}}' type="text" placeholder="{{this.age}}"></label>
+                    <label>Born: <input disabled class='input{{this.id}}' type="text" placeholder="{{this.yob}}"></label>
+                    <a href="#" data-state='false' class="btn btn-primary edit">Edit</a>
+                    <a href="#" class="btn btn-danger delete">Delete</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
