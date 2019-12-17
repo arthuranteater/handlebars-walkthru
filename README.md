@@ -8,7 +8,7 @@ Look below for .gitignore node template
 
 4) When building a server what are some of your dependencies?
 
-5) Npm i sequelize, express-handlebars, express, mysql2, and path.
+5) Npm init -y, Npm i sequelize, express-handlebars, express, mysql2, and path.
 
 6) Build out your server to start, make sure you have a port listening and you could try to add a simple get route to make sure express is running.
 
