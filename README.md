@@ -1,7 +1,5 @@
 # handlebars walkthru
 
-https://handlebars-sequelize.herokuapp.com/
-
 ### The [deployed site](https://handlebars-sequelize.herokuapp.com/) references a private repo for security. The passcode is 71530 to create or edit entries.
 
 
