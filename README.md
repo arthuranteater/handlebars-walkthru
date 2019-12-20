@@ -1,6 +1,5 @@
 # handlebars walkthru
 
-Look below for .gitignore node template
 
 1) In your database folder, review your think about how you would create those tables in sequelize.
 
@@ -49,6 +48,8 @@ Look below for .gitignore node template
 24) Extra stuff: add a place to add parents, add hobbies, run query to find all where age equals, run a join to show which hobbies are shared by which
 
 25) Deploy to Heroku!
+
+**the deployed version linked above references a private repo for security, the passcode is 71530 to create or edit entries
 
 
 
