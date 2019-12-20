@@ -1,5 +1,9 @@
 # handlebars walkthru
 
+https://handlebars-sequelize.herokuapp.com/
+
+### The [deployed site](https://handlebars-sequelize.herokuapp.com/) references a private repo for security. The passcode is 71530 to create or edit entries.
+
 
 1) In your database folder, review your think about how you would create those tables in sequelize.
 
@@ -49,7 +53,7 @@
 
 25) Deploy to Heroku!
 
-### the deployed version linked above references a private repo for security, the passcode is 71530 to create or edit entries
+
 
 
 
