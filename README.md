@@ -49,7 +49,7 @@
 
 25) Deploy to Heroku!
 
-**the deployed version linked above references a private repo for security, the passcode is 71530 to create or edit entries
+### the deployed version linked above references a private repo for security, the passcode is 71530 to create or edit entries
 
 
 
